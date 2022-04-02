@@ -1,0 +1,5 @@
+project: aws-c-common
+target: fuzzme
+
+cmds: 
+  - cmd: /aws-c-common-fuzz-base64_encoding_transitive
